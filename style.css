@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .dashboard-container {
   display: grid;
   grid-template-columns: 240px 1fr;
@@ -12,6 +16,10 @@
     "sidebar header"
     "sidebar main";
   min-height: 100vh;
+}
+.card-icon {
+  width: 20px;
+  height: 20px;
 }
 
 /* sidebar */
