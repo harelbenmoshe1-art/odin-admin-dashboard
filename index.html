@@ -32,29 +32,30 @@
     <header class="header">
       <div class="header-top">
         <div class="search-bar">
-          <input type="text" placeholder="Search...">
+          <span class="search-icon">🔍</span>
+          <input type="search" placeholder="Search..." aria-label="Search dashboard">
         </div>
 
         <div class="user-notifications">
-          <span>Notifications</span>
-          <img src="https://via.placeholder.com/40" alt="Profile Thumbnail">
-          <span>Morgan Duckett</span>
+          <span class="bell-icon">🔔</span>
+          <img src="https://via.placeholder.com/40" alt="Profile Thumbnail" class="avatar-small">
+          <span class="user-name">Morgan Duckett</span>
         </div>
       </div>
 
       <div class="header-bottom">
         <div class="user-greeting">
-          <img src="https://via.placeholder.com/60" alt="Profile Picture">
-          <div>
-            <p>Hi there,</p>
-            <h3>Morgan Duckett (@morgan)</h3>
+          <img src="https://via.placeholder.com/65" alt="Profile Picture" class="avatar-large">
+          <div class="greeting-text">
+            <span class="greeting-small">Hi there,</span>
+            <h2 class="greeting-large">Morgan Duckett (@morgan)</h2>
           </div>
         </div>
 
         <div class="action-buttons">
-          <button>New</button>
-          <button>Upload</button>
-          <button>Share</button>
+          <button type="button">New</button>
+          <button type="button">Upload</button>
+          <button type="button">Share</button>
         </div>
       </div>
     </header>
